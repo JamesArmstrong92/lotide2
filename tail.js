@@ -8,12 +8,14 @@ const assertEqual = function(actual, expected) {
 };
 
 const tail = function(arr) {
-
+  let output = '';
+  
   if (arr === '') {
     return [];
   }
-
-  return arr.slice(arr.length - 1)[0];
+  output = arr.slice(arr.length - 1)[0];
+  
+  return output;
 
 };
 
