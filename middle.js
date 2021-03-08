@@ -24,6 +24,8 @@ const middle = function(array) {
   return output;
 };
 
+module.exports = middle;
+
 
 console.log(middle([1, 2, 3, 4, 9, 15, 7, 8]));
 

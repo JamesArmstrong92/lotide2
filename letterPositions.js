@@ -43,3 +43,6 @@ const letterPositions = function(sentence) {
 assertArraysEqual(letterPositions("James Armstrong").m, [2, 8]);
 assertArraysEqual(letterPositions("hello").l, [2, 3]);
 assertArraysEqual(letterPositions("Lighthouse").t, [4]);
+
+
+module.exports = letterPositions;

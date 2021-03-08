@@ -50,5 +50,7 @@ const without = function(source, itemsToRemove) {
   return output;
 };
 
-without([1, 2, 3], [1]) // => [2, 3]
-without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
+assertArraysEqual(without([1, 2, 3], [1])) // => [2, 3]
+assertArraysEqual(without(["1", "2", "3"], [1, 2, "3"])) // => ["1", "2"]
+
+module.exports = without;
